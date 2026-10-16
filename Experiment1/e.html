@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2>JavaScript Functions</h2>
+<p id="demo"></p>
+<script>
+// Function Declaration
+function add(a,b){
+return a+b;
+}
+// Function Expression
+const multiply=function(a,b){
+return a*b;
+};
+// Arrow Function
+const subtract=(a,b)=>a-b;
+document.getElementById("demo").innerHTML=
+"Addition = "+add(10,5)+"<br>"+
+"Multiplication = "+multiply(10,5)+"<br>"+
+"Subtraction = "+subtract(10,5);
+</script>
+</body>
+</html>

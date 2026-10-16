@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>DOM Selectors</title>
+</head>
+<body>
+<h2 id="title">JavaScript DOM</h2>
+<p class="demo">Paragraph One</p>
+<p class="demo">Paragraph Two</p>
+<button onclick="show()">Show</button>
+<script>
+function show(){
+document.getElementById("title").style.color="blue";
+document.getElementsByClassName("demo")[0].style.color="red";
+document.getElementsByTagName("p")[1].style.fontWeight="bold";
+}
+</script>
+</body>
+</html>
+Give feedback

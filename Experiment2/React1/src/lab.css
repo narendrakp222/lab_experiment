@@ -1,0 +1,9 @@
+.lab { max-width: 850px; margin: 40px auto; padding: 0 24px; font: 18px/1.5 system-ui, sans-serif; color: #172033; }
+.lab h1 { font-size: 2rem; }
+.lab nav { display: flex; flex-wrap: wrap; gap: 10px; margin: 28px 0; }
+.lab button { cursor: pointer; padding: 9px 14px; border: 1px solid #79859b; border-radius: 6px; background: white; color: #172033; font: inherit; }
+.lab button[aria-pressed="true"] { background: #183d82; color: white; }
+.lab button:focus-visible, .lab input:focus-visible { outline: 3px solid #396adc; outline-offset: 2px; }
+.lab .output { padding: 28px; border: 1px solid #c9d3e0; border-radius: 8px; min-height: 160px; }
+.lab .output button { margin-bottom: 10px; }
+.lab input { padding: 9px; font: inherit; }
